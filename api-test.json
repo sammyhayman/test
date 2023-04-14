@@ -1,13 +1,12 @@
-sportsindex.json
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "Sportsindex API",
-        "description": "Developers should use client ID = 7 and client secret = Ar2VvF8odVQnK2iyV1BLBmowMKoWSi2sY02llbu7 to access api.sportsindex.dk (production) and client ID = 2 and client secret = bs2Et2gvDhi3nzr1FWJTueq5o37nUiGjjed46zBR to access stgapi.sportsindex.dk (staging) on local development machines.",
+        "title": "test-api API",
+        "description": "Developers should use client ID = 7 and client secret = Ar2VvF8odVQnK2iyV1BLBmowMKoWSi2sY02llbu7 to access api.test-api.dk (production) and client ID = 2 and client secret = bs2Et2gvDhi3nzr1FWJTueq5o37nUiGjjed46zBR to access stgapi.test-api.dk (staging) on local development machines.",
         "version": "1.0.0"
     },
     "servers": [{
-        "url": "https:\/\/api.sportsindex.dk"
+        "url": "https:\/\/api.test-api.dk"
     }],
     "paths": {
         "\/oauth\/token": {
@@ -3899,7 +3898,7 @@ sportsindex.json
                     "parameter": "fk_ids",
                     "name": "fk_ids[]",
                     "in": "query",
-                    "description": "IDs in Sportsindex's system",
+                    "description": "IDs in test-api's system",
                     "schema": {
                         "type": "array",
                         "items": {
